@@ -1,0 +1,125 @@
+h1 {
+  color: white;
+  background-color: #52154e;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 5px double #111344;
+}
+
+p {
+  color: #111344;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #111344;
+}
+
+h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: white;
+  background-color: #52154e;
+  border: 1px dotted black;
+}
+
+td {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 1px dotted black;
+  color: #111344;
+}
+
+body {
+  background-color: #f8f2dc;
+}
+
+.my-new-tables {
+  display: flex;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 20px;
+  margin-right: 5px;
+}
+
+.alert {
+  color: red;
+}
+
+.intro {
+  width: 50%;
+}
+
+/* attribute selector
+https://www.w3schools.com/cssref/css_selectors.php */
+input[type="submit"] {
+  background-color: #111344;
+  color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  font-size: large;
+}
+
+/* Hover selector
+https://www.w3schools.com/cssref/css_selectors.php */
+input[type="submit"]:hover {
+  background-color: #dae0f2;
+  color: #111344;
+}
+
+input[value="Exit"] {
+  background-color: red;
+  border-radius: 5px;
+  color: white;
+  border-width: 1px;
+  margin-top: 10px;
+  font-size: large;
+}
+
+input[value="Exit"]:hover {
+  background-color: orangered;
+}
+
+input[type="number"] {
+  width: 50px;
+}
+
+input[value="Create"],
+input[value="Back"],
+input[value="Update"] {
+  background-color: #52154e;
+  color: white;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-top: 10px;
+  font-size: large;
+}
+
+input[value="Create"]:hover,
+input[value="Back"]:hover,
+input[value="Update"]:hover {
+  background-color: aquamarine;
+  color: #111344;
+}
+
+table.login tr td,
+.login {
+  border: none;
+}
+
+tr:hover {
+  background-color: white;
+}
+
+#newButton {
+  margin-top: 5px;
+}
